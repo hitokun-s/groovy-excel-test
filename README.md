@@ -29,8 +29,7 @@ Groovy Excel Test
     
 ##Memo
 
-- 整数も小数も日付も、POI側からは、Cell Type:Numeric となってしまう 
+- 整数も小数も日付も、POI側からは、Cell Type:Numeric となってしまう  
   => DBカラム定義を参照して、日付ならgetDateCellValue()を呼ぶとか、数値ならlong/int/doubleで型変換するとかが必要そう
-- もしかするとデータがダブルクォーテーションで囲まれていても抽出すると消えてしまう？（データはOpenOfficeで視認しているのでそのせいかも）
     
     
